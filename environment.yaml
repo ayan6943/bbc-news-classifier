@@ -1,0 +1,9 @@
+name: bbc-news-env
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - scikit-learn
+      - joblib
+      - numpy
+      - nltk
