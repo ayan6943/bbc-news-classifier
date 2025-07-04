@@ -82,15 +82,15 @@ jupyter notebook
 
 ---
 
-#🙏 Attribution
+##🙏 Attribution
 BBC dataset provided by UCD Machine Learning Group
 Contact: Derek Greene
-
-#🧾 License
+---
+##🧾 License
 This repository is for educational and research use only.
 Original article copyrights belong to BBC.
-
-#✨ Author
+---
+##✨ Author
 Syed Uzair Ayan Ahmed
 Built, trained, and documented the entire pipeline inside Azure ML.
 GitHub: @ayan6943
