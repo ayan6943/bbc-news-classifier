@@ -75,6 +75,23 @@ cd bbc-news-classifier
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
+---
+
+#🙏 Attribution
+BBC dataset provided by UCD Machine Learning Group
+Contact: Derek Greene
+
+#🧾 License
+This repository is for educational and research use only.
+Original article copyrights belong to BBC.
+
+#✨ Author
+Syed Uzair Ayan Ahmed
+Built, trained, and documented the entire pipeline inside Azure ML.
+GitHub: @ayan6943
+
+
+
 # Install dependencies
 pip install -r requirements.txt
 
