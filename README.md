@@ -2,7 +2,7 @@
 
 A deep learning-powered multi-class **news topic classifier** trained on the BBC News dataset using **Azure ML**, **TF-IDF**, and classical NLP techniques. Deployed and tested inside Azure ML Studio with reproducible pipeline-based workflow.
 
-> 🚀 Achieved **96.6 accuracy** across 5 news categories: business, entertainment, politics, sport, and tech.
+> 🚀 Achieved **96.6% accuracy** across 5 news categories: business, entertainment, politics, sport, and tech.
 
 ---
 
@@ -10,7 +10,7 @@ A deep learning-powered multi-class **news topic classifier** trained on the BBC
 
 - Built, trained, and evaluated entirely within **Azure ML Studio**
 - Used **Compute Instance** for model training and TF-IDF preprocessing
-- Leverage **Notebook Interface**, custom Python environments, and data versioning
+- Leveraged **Notebook Interface**, custom Python environments, and data versioning
 - Explored deployment endpoint creation (but deferred to local inference to avoid cloud compute costs)
 
 This demonstrates strong familiarity with **Azure’s cloud ML ecosystem** — critical for real-world scalable ML applications.
@@ -73,24 +73,26 @@ cd bbc-news-classifier
 
 # Set up virtual environment (optional)
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Launch notebook
 jupyter notebook
+```
 
 ---
 
-##🙏 Attribution
+## 🙏 Attribution
 BBC dataset provided by UCD Machine Learning Group
 Contact: Derek Greene
----
-##🧾 License
+
+## 🧾 License
 This repository is for educational and research use only.
 Original article copyrights belong to BBC.
----
-##✨ Author
+
+## ✨ Author
 Syed Uzair Ayan Ahmed
 Built, trained, and documented the entire pipeline inside Azure ML.
 GitHub: @ayan6943
