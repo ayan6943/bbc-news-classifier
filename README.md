@@ -74,6 +74,11 @@ cd bbc-news-classifier
 # Set up virtual environment (optional)
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch notebook
+jupyter notebook
 
 ---
 
@@ -90,10 +95,3 @@ Syed Uzair Ayan Ahmed
 Built, trained, and documented the entire pipeline inside Azure ML.
 GitHub: @ayan6943
 
-
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch notebook
-jupyter notebook
